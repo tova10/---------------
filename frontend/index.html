@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>מערכת התראות אזורית</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+
+
+    <header class="main-header">
+
+        <h1>🚨 מערכת התראות אזורית</h1>
+
+        <p>
+            קבלת עדכונים בזמן אמת על אירועים באזור המגורים
+        </p>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- אזור מפה -->
+
+        <section class="map-section">
+
+            <h2>🗺 מפת אירועים</h2>
+
+            <div class="map-container">
+
+                <p>
+                    כאן תוצג מפה אמיתית של ישראל
+                    עם סימון אירועים פעילים
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!-- אזור הרשמה -->
+
+        <section class="register-section">
+
+            <h2>👤 הרשמה לקבלת התראות</h2>
+
+
+            <form class="register-form">
+
+                <label for="email">
+                    כתובת אימייל
+                </label>
+
+                <input id="email" type="email" placeholder="הכנס כתובת אימייל" required>
+
+
+                <label for="city">
+                    עיר מגורים
+                </label>
+
+                <input id="city" type="text" placeholder="הכנס עיר מגורים" required>
+
+
+                <button type="submit">
+                    הרשמה לקבלת התראות
+                </button>
+
+            </form>
+
+
+        </section>
+
+
+
+
+
+        <!-- אזור מנהל -->
+
+        <section class="admin-section">
+
+            <h2>🔐 אזור מנהל</h2>
+
+
+            <p>
+                פעולות ניהול המערכת
+            </p>
+
+
+            <button>
+                הוספת אירוע חדש
+            </button>
+
+
+            <button>
+                עדכון אירוע
+            </button>
+
+
+            <button>
+                מחיקת אירוע
+            </button>
+
+
+        </section>
+
+
+
+
+
+
+        <!-- היסטוריית אירועים -->
+
+        <section class="history-section">
+
+            <h2>📜 היסטוריית אירועים</h2>
+
+
+            <div class="event-card">
+
+
+                <h3>
+                    אין אירועים להצגה
+                </h3>
+
+
+                <p>
+                    לאחר יצירת אירועים הם יוצגו כאן.
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+<script  src="./js/user.js"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
